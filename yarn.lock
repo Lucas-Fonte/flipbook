@@ -7364,6 +7364,11 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+page-flip@latest:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/page-flip/-/page-flip-2.0.0.tgz#d2355a6fe5a497cc712d4e7bb3585ab80047b61e"
+  integrity sha512-un3ukWlmKf8V6JkvNnDzOahubPbJy9DvE4UZgDG4fcbzPFuOhVLMlOUTLhTdlYoSMJBSAWfh06sazm3rqfVwkQ==
+
 pako@~1.0.5:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
@@ -8620,6 +8625,15 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-pageflip@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-pageflip/-/react-pageflip-1.0.0.tgz#e9d7647041e45362777916cece5b9f6926f1e7e2"
+  integrity sha512-u7F7QlE7qi401vQHGn01SsV1ToC39j2B5BsmCekDubM9uUGINdHL+vH1z9ZcsQ5tB1yP08sNPraGj9J4S+z+Jw==
+  dependencies:
+    page-flip latest
+    react "^16.13.1"
+    rollup "^2.26.0"
+
 react-scripts@3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.3.tgz#21de5eb93de41ee92cd0b85b0e1298d0bb2e6c51"
@@ -9075,6 +9089,13 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rollup@^2.26.0:
+  version "2.28.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.28.2.tgz#599ec4978144a82d8a8ec3d37670a8440cb04e4b"
+  integrity sha512-8txbsFBFLmm9Xdt4ByTOGa9Muonmc8MfNjnGAR8U8scJlF1ZW7AgNZa7aqBXaKtlvnYP/ab++fQIq9dB9NWUbg==
+  optionalDependencies:
+    fsevents "~2.1.2"
 
 rsvp@^4.8.4:
   version "4.8.5"
