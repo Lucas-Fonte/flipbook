@@ -1,1 +1,5 @@
-*.html text
+* linguist-vendored
+*.js linguist-vendored=false
+*.ts linguist-vendored=false
+*.tsx linguist-vendored=false
+*.css linguist-vendored=false
